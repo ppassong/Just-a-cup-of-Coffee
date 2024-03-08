@@ -1,0 +1,34 @@
+.container {
+  /* background-color: rgb(225, 225, 225); */
+  background-color: rgb(38, 34, 34);
+  margin-top: 20px;
+  color: rgb(159, 159, 159);
+  padding: 10px 50px 20px 50px;
+  z-index: 9999;
+}
+
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(38, 34, 34);
+  margin-top: 25px;
+  color: rgb(159, 159, 159);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid  rgb(77, 77, 77);
+  border-bottom: 1px solid  rgb(77, 77, 77);
+}
+
+.Link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Link:hover {
+  text-decoration: underline;
+}
+
+.comment {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}

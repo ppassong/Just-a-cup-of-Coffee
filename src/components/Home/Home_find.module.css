@@ -1,0 +1,175 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  background-color: rgb(199, 242, 196);
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.imagecontainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+@keyframes shake {
+  0% { transform: rotateZ(-15deg);}
+  50% { transform: rotateZ(15deg);}
+  100% { transform: rotateZ(-15deg);}
+}
+
+@keyframes appearDisappear {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.coffeeBeans1 {
+  position: absolute;
+  width: 100px;
+  left:1%;
+  top: 15%;
+  transform: translate(-20%, -120%) rotateZ(-30deg);
+  animation: appearDisappear 10s ease infinite;
+}
+
+.coffeeBeans2 {
+  position: absolute;
+  width: 100px;
+  left: 105%; /* Adjust left position relative to container */
+  top: 25%; /* Adjust top position relative to container */
+  transform: rotateZ(40deg);
+  animation: appearDisappear 10s ease infinite;
+}
+
+.coffeeBeans3 {
+  position: absolute;
+  width: 100px;
+  left: 25%;
+  top: 40%;
+  transform: rotateZ(40deg);
+  animation: appearDisappear 10s ease infinite;
+}
+
+.coffeeBeans4 {
+  position: absolute;
+  width: 100px;
+  left: 75%;
+  top: 80%;
+  transform: rotateZ(140deg);
+  animation: appearDisappear 10s ease infinite;
+}
+
+.coffeeBeans5 {
+  position: absolute;
+  width: 100px;
+  left: -8%;
+  top: 100%;
+  transform: rotateZ(-200deg);
+  animation: appearDisappear 10s ease infinite;
+}
+
+.coffeeBeans6 {
+  position: absolute;
+  width: 100px;
+  left: 70%;
+  top: -5%;
+  transform: rotateZ(100deg);
+  animation: appearDisappear 5s ease-out infinite;
+}
+
+.coffeeBeans7 {
+  position: absolute;
+  width: 100px;
+  left: 110%;
+  top: 100%;
+  transform: rotateZ(130deg);
+  animation: appearDisappear 5s ease-out infinite;
+}
+
+
+.coffeeBeans8 {
+  position: absolute;
+  width: 100px;
+  left: -20%;
+  top: 50%;
+  transform: rotateZ(80deg);
+  animation: appearDisappear 5s ease-out infinite;
+}
+
+.img {
+  width: 250px;
+  z-index: 1;
+}
+
+.img2 {
+  width: 250px;
+  height: 330px;
+  animation: shake 4s ease-in-out infinite;
+  z-index: 1;
+}
+
+.img3 {
+  width: 250px;
+  transform: scaleX(-1);
+  z-index: 1;
+}
+
+.imageGroup {
+  display: flex;
+  gap: 220px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: -40px;
+}
+
+
+.text_container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  text-align: center;
+  z-index: 1;
+  padding-top: 30px;
+  letter-spacing: 1rem;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(196, 144, 2);
+  margin-bottom: 0;
+}
+
+.h2_2{
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.h2:hover {
+  text-decoration: underline;
+}
