@@ -1,10 +1,10 @@
 ## ver.1.1 업데이트<br>
--메뉴의 '종류?'의 드롭박스 항목 링크 이동을 해당 페이지가 종류?에 위치하지 않더라도 다른 페이지 위치에서도 스크롤 이동이 기능하게 구현.'<br>
--빌드 최적화.'<br>
--폰트 수정.'<br>
--하단 footer에서 링크 클릭 시. scrollToTop 기능 추가.'<br>
--종류? 영역의 음료 콘텐츠 설명 텍스트의 가시성 확보.'<br>
--종류? 영역의 아메리카노 toolip이 안뜨는 오류 해결'<br>
+-메뉴의 '종류?'의 드롭박스 항목 링크 이동을 해당 페이지가 종류?에 위치하지 않더라도 다른 페이지 위치에서도 스크롤 이동이 기능하게 구현.<br>
+-빌드 최적화.<br>
+-폰트 수정.<br>
+-하단 footer에서 링크 클릭 시. scrollToTop 기능 추가.<br>
+-종류? 영역의 음료 콘텐츠 설명 텍스트의 가시성 확보.<br>
+-종류? 영역의 아메리카노 toolip이 안뜨는 오류 해결.<br>
 
 ---
 # Just a cup of Coffee
@@ -176,6 +176,8 @@ url이 변경될 때마다 해당 항목의 위치로 스크롤 이동을 구현
 분명하게.<br>
 <br>
 <br>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
