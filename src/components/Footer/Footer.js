@@ -3,6 +3,14 @@ import { Link,  useLocation } from 'react-router-dom'
 import style from './Footer.module.css'
 
 const Footer = () => {
+
+  const scrollToTop = (path) => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div className={style.footer}>
     <div className={style.container}>
@@ -18,13 +26,13 @@ const Footer = () => {
       </p>
 
       <div className={style.box}>
-        <Link to='/coffee' className={style.Link}>
+        <Link to='/coffee' onClick={scrollToTop} className={style.Link}>
           <h3>커피?</h3>
         </Link>
-        <Link to='/type' className={style.Link}>
+        <Link to='/type' onClick={scrollToTop} className={style.Link}>
           <h3>종류?</h3>
         </Link>
-        <Link to='/find' className={style.Link}>
+        <Link to='/find' onClick={scrollToTop} className={style.Link}>
           <h3>원두?</h3>
         </Link>
       </div>

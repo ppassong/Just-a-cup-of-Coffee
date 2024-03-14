@@ -78,7 +78,7 @@ const Coffee = () => {
       </div>
 
       <ScrollContainer>
-      <ScrollPage>
+        <ScrollPage>
         </ScrollPage>
 
         <ScrollPage>
@@ -97,11 +97,11 @@ const Coffee = () => {
 
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky())}>
-          <h1 className={style.h4}>
-            누군가에게는
-          <span className={style.h4_color} ><br/>설레임의 장소.</span>
+            <h1 className={style.h4}>
+              누군가에게는
+              <span className={style.h4_color} ><br />설레임의 장소.</span>
             </h1>
-          <img src={meeting} alt={meeting} className={style.image1}/>
+            <img src={meeting} alt={meeting} className={style.image1} />
           </Animator>
         </ScrollPage>
 
@@ -110,11 +110,11 @@ const Coffee = () => {
 
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky())}>
-          <h1 className={style.h4_2}>
-            누군가에게는
-          <span className={style.h4_color2} ><br/>자신만의 분위기를<br/> 가두는 곳으로.</span>
+            <h1 className={style.h4_2}>
+              누군가에게는
+              <span className={style.h4_color2} ><br />자신만의 분위기를<br /> 가두는 곳으로.</span>
             </h1>
-          <img src={alone} alt={alone} className={style.image2}/>
+            <img src={alone} alt={alone} className={style.image2} />
           </Animator>
         </ScrollPage>
 
@@ -123,11 +123,11 @@ const Coffee = () => {
 
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky())}>
-          <h1 className={style.h4_3}>
-            누군가에게는
-          <span className={style.h4_color3} ><br/>일상 속에 거쳐가는 장소로.</span>
+            <h1 className={style.h4_3}>
+              누군가에게는
+              <span className={style.h4_color3} ><br />일상 속에 거쳐가는 장소로.</span>
             </h1>
-          <img src={daily} alt={daily} className={style.image3}/>
+            <img src={daily} alt={daily} className={style.image3} />
           </Animator>
         </ScrollPage>
 
@@ -150,43 +150,42 @@ const Coffee = () => {
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky())}>
             <h2 className={style.h4_4}>
-              이제까지 단순히 
-              <span style={{ color: "black "}}>&nbsp;'카페인'&nbsp;</span> 
+              이제까지 단순히
+              <span style={{ color: "black " }}>&nbsp;'카페인'&nbsp;</span>
               섭취를 위해서 먹었다면.
             </h2>
           </Animator>
         </ScrollPage>
 
-          <ScrollPage>
+        <ScrollPage>
           <div>
             <h1 className={style.h5}>
               조금 더 커피를 알아보고 즐겨볼까요?
             </h1>
           </div>
 
-        <div className={style.container2}>
-          <div className={style.card1}>
-            <h3 className={style.card1_word}>어떤 커피를 좋아할까<br/> 나는?</h3>
-            <Link to="/Type" className={style.link1} onClick={scrollToTop}>
-              커피의 종류 알아보기&gt;
-            </Link> 
-            <img src={coffee_illust} alt={coffee_illust} className={style.card1_image}/>
-          </div>
+          <div className={style.container2}>
+            <div className={style.card1}>
+              <h3 className={style.card1_word}>어떤 커피를 좋아할까<br /> 나는?</h3>
+              <Link to="/Type" className={style.link1} onClick={scrollToTop}>
+                커피의 종류 알아보기&gt;
+              </Link>
+              <img src={coffee_illust} alt={coffee_illust} className={style.card1_image} />
+            </div>
 
-          <div className={style.card2}>
-            <h3 className={style.card2_word}>어떤 원두가 나에게 <br/>잘 어울릴까?</h3>
-            <Link to="/Find" className={style.link2} onClick={scrollToTop}>
-              좋아하는 원두 찾아보기&gt;
-            </Link>
-            <img src={bean_illust} alt={bean_illust} className={style.card2_image}/>
+            <div className={style.card2}>
+              <h3 className={style.card2_word}>어떤 원두가 나에게 <br />잘 어울릴까?</h3>
+              <Link to="/Find" className={style.link2} onClick={scrollToTop}>
+                좋아하는 원두 찾아보기&gt;
+              </Link>
+              <img src={bean_illust} alt={bean_illust} className={style.card2_image} />
+            </div>
           </div>
-      </div>
-      
-      </ScrollPage>
-    
+        </ScrollPage>
+        
       </ScrollContainer>
 
-    
+
     </div>
   )
 }

@@ -6,27 +6,29 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 3;
+    z-index: 999;
 }
 
 .coffee {
-    margin: 5px;
     display:flex;
     justify-content: center;
     font-size: 2rem;
-    font-family: "Orbit-Regular";
+    font-family: 'Pretendard-Regular';
     padding-left: 1rem;
+    padding-top: 10px;
+    letter-spacing: 5px;
 }
 
 .Nav {
-    margin: 5px;
+  padding-top: 10px;
     display:flex;
     gap: 50px;
     font-size: 32px;
     margin-left: auto;
     justify-content: flex-start;
-    font-family: "Orbit-Regular";
+    font-family: 'Pretendard-Regular';
     padding-right: 1rem;
+ 
 }
 
 .dropdownContainer {
@@ -65,12 +67,10 @@
     transition: text-decoration 0.3s;
 }
 
-
-
-
 @font-face {
-    font-family: 'Orbit-Regular';
-    src: url('../../source/fonts/Orbit-Regular.ttf') format('ttf'), url('../../source/fonts/Orbit-Regular.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
+

@@ -3,16 +3,33 @@ import style from '../Type/Type_brewed.module.css';
 import drip_coffee from '../../source/image/drip_coffee.png';
 
 const Type_brewed = React.forwardRef((props, ref) => {
-    const [isHovered, setIsHovered] = useState(false);
-    
-    const handleHover = () => {
-        setIsHovered(true);
-    };
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
 
-    const handleLeave = () => {
-        setIsHovered(false);
-    };
+  const handleHover1 = () => {
+      setIsHovered1(true);
+  };
 
+  const handleLeave1 = () => {
+      setIsHovered1(false);
+  };
+
+  const handleHover2 = () => {
+      setIsHovered2(true);
+  };
+
+  const handleLeave2 = () => {
+      setIsHovered2(false);
+  };
+
+  const handleHover3 = () => {
+      setIsHovered3(true);
+  };
+
+  const handleLeave3 = () => {
+      setIsHovered3(false);
+  };
     return (
         <div id="brewed" ref={ref}>
         <div id="brewed-scroll-target" style={{ height: '1px' }}></div>
@@ -32,9 +49,9 @@ const Type_brewed = React.forwardRef((props, ref) => {
 
             <div className={style.container}>
                 <div className={style.box}>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>드립커피</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover1} onMouseLeave={handleLeave1}>
+                        <div className={style.textWrapper}>'드립커피'</div>
+                        {isHovered1 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     먹고싶은 원두나 해당 시즌에 정해진 원두를 뜨거운 물로 내린 음료로
@@ -44,9 +61,9 @@ const Type_brewed = React.forwardRef((props, ref) => {
                             </div>
                         }
                     </div>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>아이스 드립커피</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover2} onMouseLeave={handleLeave2}>
+                        <div className={style.textWrapper}>'아이스 드립커피'</div>
+                        {isHovered2 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     드립커피의 아이스버전으로 아이스 아메리카노와 마찬가지로
@@ -55,9 +72,9 @@ const Type_brewed = React.forwardRef((props, ref) => {
                             </div>
                         }
                     </div>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>콜드브루</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover3} onMouseLeave={handleLeave3}>
+                        <div className={style.textWrapper}>'콜드브루'</div>
+                        {isHovered3 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     드립의 형식이지만 뜨거운 물이 아닌 차가운 물로 오랜시간

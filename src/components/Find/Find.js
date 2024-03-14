@@ -11,8 +11,7 @@ import Answer3_1 from './Find_answer/Answer3_1';
 import Answer3_2 from './Find_answer/Answer3_2';
 import Answer3_3 from './Find_answer/Answer3_3';
 import Navibar from '../Navibar/Navibar';
-import Type from '../Type/Type';
-import style from './Find.module.css'
+
 
 const Find = () => {
   const [selectedFlavor, setSelectedFlavor] = useState(null);

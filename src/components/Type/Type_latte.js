@@ -3,15 +3,51 @@ import style from './Type_latte.module.css'
 import latte_gate from '../../source/image/latte_gate.jpg';
 
 const Type_latte = React.forwardRef((props, ref) => {
-    const [isHovered, setIsHovered] = useState(false);
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
+  const [isHovered4, setIsHovered4] = useState(false);
+  const [isHovered5, setIsHovered5] = useState(false);
 
-    const handleHover = () => {
-        setIsHovered(true);
-    };
+  const handleHover1 = () => {
+      setIsHovered1(true);
+  };
 
-    const handleLeave = () => {
-        setIsHovered(false);
-    };
+  const handleLeave1 = () => {
+      setIsHovered1(false);
+  };
+
+  const handleHover2 = () => {
+      setIsHovered2(true);
+  };
+
+  const handleLeave2 = () => {
+      setIsHovered2(false);
+  };
+
+  const handleHover3 = () => {
+      setIsHovered3(true);
+  };
+
+  const handleLeave3 = () => {
+      setIsHovered3(false);
+  };
+
+  const handleHover4 = () => {
+    setIsHovered4(true);
+};
+
+const handleLeave4 = () => {
+    setIsHovered4(false);
+};
+
+const handleHover5 = () => {
+  setIsHovered5(true);
+};
+
+const handleLeave5 = () => {
+  setIsHovered5(false);
+};
 
     return (
         <div id="latte" ref={ref} className={style.background}>
@@ -37,9 +73,9 @@ const Type_latte = React.forwardRef((props, ref) => {
 
             <div className={style.container}>
                 <div className={style.box}>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>카페 라떼</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover1} onMouseLeave={handleLeave1}>
+                        <div className={style.textWrapper}>'카페 라떼'</div>
+                        {isHovered1 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     에스프레소 샷과 스팀한 우유 혹은 얼음과 찬 우유를 섞은 것으로
@@ -50,9 +86,9 @@ const Type_latte = React.forwardRef((props, ref) => {
                             </div>
                         }
                     </div>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>카푸치노</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover2} onMouseLeave={handleLeave2}>
+                        <div className={style.textWrapper}>'카푸치노'</div>
+                        {isHovered2 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     라떼와 비슷하지만, 절대적인 우유 양보단 밀크폼의 비율이 더 높아서
@@ -61,9 +97,9 @@ const Type_latte = React.forwardRef((props, ref) => {
                             </div>
                         }
                     </div>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>플랫화이트</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover3} onMouseLeave={handleLeave3}>
+                        <div className={style.textWrapper}>'플랫화이트'</div>
+                        {isHovered3 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     카페라떼와 비슷하지만, 우유 밀크폼과 샷이 함께 섞인 형태로 
@@ -72,9 +108,9 @@ const Type_latte = React.forwardRef((props, ref) => {
                             </div>
                         }
                     </div>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>마끼아토</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover4} onMouseLeave={handleLeave4}>
+                        <div className={style.textWrapper}>'마끼아토'</div>
+                        {isHovered4 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     기존의 쓴 에스프레소를 더 부드럽게 즐길 수 있도록 라떼형식으로 만든
@@ -84,9 +120,9 @@ const Type_latte = React.forwardRef((props, ref) => {
                             </div>
                         }
                     </div>
-                    <div className={style.card1} onMouseEnter={handleHover} onMouseLeave={handleLeave}>
-                        <div className={style.textWrapper}>논 커피(Non-coffee)라떼</div>
-                        {isHovered &&
+                    <div className={style.card1} onMouseEnter={handleHover5} onMouseLeave={handleLeave5}>
+                        <div className={style.textWrapper}>'논 커피(Non-coffee)라떼'</div>
+                        {isHovered5 &&
                             <div className={style.tooltip}>
                                 <div className={style.tooltipContent} >
                                     커피가 안 들어간 것으로

@@ -99,6 +99,7 @@ html, body{
     text-align: center;
     top: 10%;
     position: relative;
+    letter-spacing: 3px;
 }
 
 .tooltip::before { /* 삼각형 툴팁 */
@@ -127,7 +128,7 @@ html, body{
     align-items: center;
     gap: 100px;
     margin: auto;
-    font-family: "Orbit-Regular";
+    font-family: 'Pretendard-Regular';
     background-color: rgb(239, 235, 233);
     padding: 50px;
     padding-bottom: 120px;
@@ -141,7 +142,7 @@ html, body{
     align-items: center;
     gap: 150px;
     margin: auto;
-    font-family: "Orbit-Regular";
+    font-family: 'Pretendard-Regular';
     padding: 40px;
     padding-bottom: 0px;
     position: relative;

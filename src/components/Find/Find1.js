@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Stack } from '@mui/material';
-import Navibar from '../Navibar/Navibar';
 import style from '../Find/Find1.module.css';
 
 const Find1 = ({ setSelectedFlavor }) => {
