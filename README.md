@@ -11,8 +11,8 @@
 
 ## < 프로젝트 소개 >
 
-![480p-ezgif com-optimize](https://github.com/ppassong/robofriends/assets/132435219/2ee60f9c-9c55-4404-962c-79c268be5a5f)
-
+![607cc1d6-1bfa-455e-89c7-a80e94ed866c-ezgif com-optimize](https://github.com/ppassong/robofriends/assets/132435219/cee12da5-2468-4dd4-82d5-80da20a8e9b9)
+<br>
 '커피'에 대해서 좀 더 간략하게 훑어볼 수 있는 프로젝트
 
 ### * 사용 기술 스택
@@ -22,35 +22,33 @@
 <br>
 <br>
 ## < 사용법 >
-❗️ 기술이 작동하려면 .jpg로 끝나는 url을 링크란에 첨부해야 합니다.
-1. Clone this repo
-2. Run npm install
-3. Run npm start
+### 1. 커피?
+![c754850a-8ed7-472c-85da-3e6347a3a2f9-ezgif com-optimize](https://github.com/ppassong/robofriends/assets/132435219/b11bce40-3de7-4e50-b39e-31c5717ac891)
 
-### 1. 회원가입 (Register)
-<img width="700" alt="register페이지" src="https://github.com/ppassong/smart-brain-Front-End/assets/132435219/612597ad-6c44-43d4-9f27-78289682b69f">
+-메인 페이지에서 '커피에 대해 아시나요?' 영역을 클릭하거나 상단 메뉴바에 '커피?'를 누르거나 하단 배너의 '커피?'를 누르면 '커피?'영역으로 이동합니다.
+<br>
+-단순 잠을 쫓기 위해서 마시는 게 아닌 문화의 의미로서의 '커피'의 의미를 환기시켜줍니다.
 
--Register을 클릭하여 회원정보를 기입하여 회원가입을 합니다.
 
-### 2. 로그인 (Sign In)
-<img width="700" alt="signin 페이지" src="https://github.com/ppassong/smart-brain-Front-End/assets/132435219/a5887e8b-de31-4a71-aadf-127af8c9c0f6">
+### 2. 종류?
+![603a149e-7d10-4573-8a05-2dbd087d5eda-ezgif com-optimize](https://github.com/ppassong/robofriends/assets/132435219/031a9202-e1b7-4c44-b44d-26e7c61bafaa)
 
--Register을 통해 회원가입을 한 계정으로 로그인을 합니다.
+-메인 페이지에서 '어떤 음료를 보고 계세요?' 영역을 클릭하거나 커피? 페이지에서 '커피의 종류 알아보기'를 누르거나 상단 메뉴바에 '종류?'를 누르거나 하단 배너의 '종류?'를 누르면 '종류?'영역으로 이동합니다.
+<br>
+-'종류?'의 마우스 hover 시 나타나는 드롭박스의 메뉴 항목으로 해당 항목을 클릭 시 항목의 위치로 스크롤 이동이 됩니다.
+<br>
+-커피의 종류에 대해서 간략한 분류와 카테고리에 맞는 음료의 간단한 설명을 볼 수 있습니다.
 
-### 3. 얼굴 인식 (face-detection)
-<img width="700" alt="얼굴인식 남성" src="https://github.com/ppassong/smart-brain-Front-End/assets/132435219/d2d30b2d-69c3-4eae-b750-dd9aae86c898">
+### 3. 원두?
+![f3e21253-f229-4a72-bd64-871321e2a3bd-ezgif com-optimize](https://github.com/ppassong/robofriends/assets/132435219/9284543d-75fc-48a3-923a-4f75b1a4be55)
 
--사용자가 원하는 이미지의 URL을 링크란에 넣고 Detect 버튼을 누릅니다.<br>
-(URL 링크가 .jpg로 끝나는 URL이어야 합니다)<br>
--전송된 이미지를 API로 분석하고 얼굴 인식의 결과를 출력합니다.<br>
--얼굴 인식의 count수를 계정에 귀속하여서 실시간으로 보여줍니다.
+-메인 페이지에서 '내 취향 저격 원두' 영역을 클릭하거나 커피? 페이지에서 '좋아하는 원두 찾아보기'를 누르거나 상단 메뉴바에 '원두?'를 누르거나 하단 배너의 '원두?'를 누르면 '원두?'영역으로 이동합니다.
+<br>
+-사용자가 어떤 선호하는 맛과 느낌에 따라서 개인 맞춤형 원두의 정보를 제공해줍니다.
+<br>
+-원두의 바디감, 산도, 균형에 대한 의미가 궁금하다면, ?마크에 마우스를 hover 하면 해당 단어의 의미가 나타납니다.
 <br>
 <br>
 <br>
 ## < 개발 후기 >
-API의 활용과 무궁무진한 이용도에 대해서 배웠으며,<br>
-프론트 영역과 백엔드 영역까지 전반적인 웹 개발의 진행의 흐름을 한차례 체험하게 된 코스의 프로젝트인 것 같다.<br>
-대체로 강의를 보고 따라가느라 모든 맥락의 코드와 논리를 이해하지는 못했지만,<br>
-대부분은 진행을 하면서 맞닥뜨리는 오류를 만나서 시간이 얼마나 걸리든 어떻게든 해결하려고 붙잡았고.<br>
-구글링하고 찾아보고 또 찾아보고 하면서 문제 해결 능력이 보다 성장한 것 같다.<br>
-하지만 아직 보고 따라치는 수준의 코딩인지라 스스로의 부족함을 많이 느껴 공부의 필요성을 더 느끼게 된 프로젝트이다.
+
