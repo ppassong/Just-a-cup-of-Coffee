@@ -1,6 +1,6 @@
 {
   "name": "just_a_cup_of_coffee",
-  "version": "0.1.0",
+  "version": "1.1",
   "private": true,
   "dependencies": {
     "@emotion/styled": "^11.11.0",
@@ -21,8 +21,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://ppassong.github.io/Just-a-cup-of-Coffee/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -44,6 +47,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "babel-eslint": "^10.1.0",
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "gh-pages": "^6.1.1"
   }
 }
