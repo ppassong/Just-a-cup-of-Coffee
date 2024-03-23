@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Just-a-cup-of-Coffee/static/css/main.310c74e3.css",
+    "main.js": "/Just-a-cup-of-Coffee/static/js/main.7325be55.js",
+    "static/js/453.eb9a3608.chunk.js": "/Just-a-cup-of-Coffee/static/js/453.eb9a3608.chunk.js",
+    "static/media/bean.jpg": "/Just-a-cup-of-Coffee/static/media/bean.ad62486dd7d34bb3fd3a.jpg",
+    "static/media/meeting_cafe.jpg": "/Just-a-cup-of-Coffee/static/media/meeting_cafe.a2f40d4cf178c0c75e92.jpg",
+    "static/media/daily_cafe.jpg": "/Just-a-cup-of-Coffee/static/media/daily_cafe.0568f1b2ff06bcaa5740.jpg",
+    "static/media/type_espresso.png": "/Just-a-cup-of-Coffee/static/media/type_espresso.ba864f103265b5e2336e.png",
+    "static/media/drip_coffee.png": "/Just-a-cup-of-Coffee/static/media/drip_coffee.5c81762c769d24897fb0.png",
+    "static/media/espresso.png": "/Just-a-cup-of-Coffee/static/media/espresso.a5b68145163bcb446d18.png",
+    "static/media/alone_cafe.jpg": "/Just-a-cup-of-Coffee/static/media/alone_cafe.36bf4bfbdeeb615e23e2.jpg",
+    "static/media/bean_pattern.png": "/Just-a-cup-of-Coffee/static/media/bean_pattern.871e836d8420487d9517.png",
+    "static/media/guatemala.png": "/Just-a-cup-of-Coffee/static/media/guatemala.6675fd1142b69cd28362.png",
+    "static/media/brazil.png": "/Just-a-cup-of-Coffee/static/media/brazil.6e09b3b9d14a5c8a81bb.png",
+    "static/media/coffee_couple.png": "/Just-a-cup-of-Coffee/static/media/coffee_couple.a9a93074f59d0c2ff319.png",
+    "static/media/latte2.png": "/Just-a-cup-of-Coffee/static/media/latte2.8865497319d97287ae3c.png",
+    "static/media/coffee-cup2.png": "/Just-a-cup-of-Coffee/static/media/coffee-cup2.7e2cc9ab077442c64b1f.png",
+    "static/media/bean_illust.png": "/Just-a-cup-of-Coffee/static/media/bean_illust.829a42a36c995b6a4957.png",
+    "static/media/one_bean.png": "/Just-a-cup-of-Coffee/static/media/one_bean.971e1c79e290447c809f.png",
+    "static/media/coffee_cup2.png": "/Just-a-cup-of-Coffee/static/media/coffee_cup2.2b5b452644453d4b3b5c.png",
+    "static/media/indonesia.png": "/Just-a-cup-of-Coffee/static/media/indonesia.5fdd65f9af899c87bac5.png",
+    "static/media/ethiopia.png": "/Just-a-cup-of-Coffee/static/media/ethiopia.80980a45907b51cd2956.png",
+    "static/media/latte_gate.jpg": "/Just-a-cup-of-Coffee/static/media/latte_gate.b7b2fc7ce2f62d4019b3.jpg",
+    "static/media/tanzania.png": "/Just-a-cup-of-Coffee/static/media/tanzania.1d7bab0f6bdfdab843fa.png",
+    "static/media/kenya.png": "/Just-a-cup-of-Coffee/static/media/kenya.1ddf912fa17eabf2d886.png",
+    "static/media/vietnam.png": "/Just-a-cup-of-Coffee/static/media/vietnam.f180b0e4a9323eb98fa8.png",
+    "static/media/costarica.png": "/Just-a-cup-of-Coffee/static/media/costarica.f72117d749d00db72888.png",
+    "static/media/coffee_up.gif": "/Just-a-cup-of-Coffee/static/media/coffee_up.57281978161f46369d5f.gif",
+    "static/media/colombia.png": "/Just-a-cup-of-Coffee/static/media/colombia.85a51ee6fa20ba76d7f9.png",
+    "static/media/bean_package.png": "/Just-a-cup-of-Coffee/static/media/bean_package.e51272798da05d1e55e8.png",
+    "static/media/coffee_illust.png": "/Just-a-cup-of-Coffee/static/media/coffee_illust.52b9b1d19861fbb9d31c.png",
+    "static/media/coffee_cup.png": "/Just-a-cup-of-Coffee/static/media/coffee_cup.e13f9131cc7d09130396.png",
+    "index.html": "/Just-a-cup-of-Coffee/index.html",
+    "main.310c74e3.css.map": "/Just-a-cup-of-Coffee/static/css/main.310c74e3.css.map",
+    "main.7325be55.js.map": "/Just-a-cup-of-Coffee/static/js/main.7325be55.js.map",
+    "453.eb9a3608.chunk.js.map": "/Just-a-cup-of-Coffee/static/js/453.eb9a3608.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.310c74e3.css",
+    "static/js/main.7325be55.js"
+  ]
+}
