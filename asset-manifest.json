@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Just-a-cup-of-Coffee/static/css/main.310c74e3.css",
-    "main.js": "/Just-a-cup-of-Coffee/static/js/main.f2aa2dce.js",
+    "main.js": "/Just-a-cup-of-Coffee/static/js/main.29391741.js",
     "static/js/453.eb9a3608.chunk.js": "/Just-a-cup-of-Coffee/static/js/453.eb9a3608.chunk.js",
     "static/media/bean.jpg": "/Just-a-cup-of-Coffee/static/media/bean.ad62486dd7d34bb3fd3a.jpg",
     "static/media/meeting_cafe.jpg": "/Just-a-cup-of-Coffee/static/media/meeting_cafe.a2f40d4cf178c0c75e92.jpg",
@@ -33,11 +33,11 @@
     "static/media/coffee_cup.png": "/Just-a-cup-of-Coffee/static/media/coffee_cup.e13f9131cc7d09130396.png",
     "index.html": "/Just-a-cup-of-Coffee/index.html",
     "main.310c74e3.css.map": "/Just-a-cup-of-Coffee/static/css/main.310c74e3.css.map",
-    "main.f2aa2dce.js.map": "/Just-a-cup-of-Coffee/static/js/main.f2aa2dce.js.map",
+    "main.29391741.js.map": "/Just-a-cup-of-Coffee/static/js/main.29391741.js.map",
     "453.eb9a3608.chunk.js.map": "/Just-a-cup-of-Coffee/static/js/453.eb9a3608.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.310c74e3.css",
-    "static/js/main.f2aa2dce.js"
+    "static/js/main.29391741.js"
   ]
 }
