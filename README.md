@@ -4,16 +4,18 @@
 -하단 footer에서 링크 클릭 시. scrollToTop 기능 추가.<br>
 -'종류?' 영역의 음료 콘텐츠 설명 텍스트의 가시성 확보.<br>
 -'종류?' 영역의 아메리카노 tooltip이 안 뜨는 오류 해결.<br>
+-github pages 배포.<br>
 
 ---
 # Just a cup of Coffee
 
 ## < 프로젝트 소개 >
-
 ![607cc1d6-1bfa-455e-89c7-a80e94ed866c-ezgif com-optimize](https://github.com/ppassong/robofriends/assets/132435219/cee12da5-2468-4dd4-82d5-80da20a8e9b9)
 <br>
-'커피'에 대해서 좀 더 간략하게 훑어보고 알아볼 수 있는 프로젝트
-
+'커피'에 대해서 좀 더 간략하게 훑어보고 알아볼 수 있는 프로젝트<br>
+https://ppassong.github.io/Just-a-cup-of-Coffee/
+<br>
+<br>
 ### * 사용 기술 스택
 #### Front-End
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=black">
