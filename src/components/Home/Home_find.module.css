@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 @keyframes shake {
@@ -32,7 +32,7 @@
 
 .coffeeBeans1 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left:1%;
   top: 15%;
   transform: translate(-20%, -120%) rotateZ(-30deg);
@@ -41,7 +41,7 @@
 
 .coffeeBeans2 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: 105%; /* Adjust left position relative to container */
   top: 25%; /* Adjust top position relative to container */
   transform: rotateZ(40deg);
@@ -50,7 +50,7 @@
 
 .coffeeBeans3 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: 25%;
   top: 40%;
   transform: rotateZ(40deg);
@@ -59,7 +59,7 @@
 
 .coffeeBeans4 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: 75%;
   top: 80%;
   transform: rotateZ(140deg);
@@ -68,7 +68,7 @@
 
 .coffeeBeans5 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: -8%;
   top: 100%;
   transform: rotateZ(-200deg);
@@ -77,7 +77,7 @@
 
 .coffeeBeans6 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: 70%;
   top: -5%;
   transform: rotateZ(100deg);
@@ -86,7 +86,7 @@
 
 .coffeeBeans7 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: 110%;
   top: 100%;
   transform: rotateZ(130deg);
@@ -96,7 +96,7 @@
 
 .coffeeBeans8 {
   position: absolute;
-  width: 100px;
+  width: 80px;
   left: -20%;
   top: 50%;
   transform: rotateZ(80deg);
@@ -104,26 +104,26 @@
 }
 
 .img {
-  width: 250px;
+  width: 200px;
   z-index: 1;
 }
 
 .img2 {
-  width: 250px;
-  height: 330px;
+  width: 200px;
+  height: 250px;
   animation: shake 4s ease-in-out infinite;
   z-index: 1;
 }
 
 .img3 {
-  width: 250px;
+  width: 200px;
   transform: scaleX(-1);
   z-index: 1;
 }
 
 .imageGroup {
   display: flex;
-  gap: 220px;
+  gap: 150px;
   justify-content: center;
   align-items: center;
   margin-top: 0;
@@ -142,24 +142,24 @@
 .h1 {
   display: flex;
   justify-content: center;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   z-index: 1;
   padding-top: 30px;
-  letter-spacing: 1rem;
+  letter-spacing: 0.8rem;
   margin-bottom: 20px;
 }
 
 .h2 {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   color: rgb(196, 144, 2);
   margin-bottom: 0;
 }
 
 .h2_2{
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 0;
   font-weight: 500;
 }
@@ -172,4 +172,5 @@
 
 .h2:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
 }

@@ -11,7 +11,7 @@
   height: 45vh;
   opacity: 0;
   transition: opacity 2s ease-in-out;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .imagecontainer.visible {
@@ -21,17 +21,17 @@
 .h1{
   display: flex;
   justify-content: center; 
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
   z-index: 1;
-  padding-top: 130px;
-  margin-top:20px;
+  padding-top: 100px;
+  margin-top: 20px;
   letter-spacing: 0.5rem;
 }
 
 .h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   color:  rgb(196, 144, 2);
   margin-bottom: 0;
@@ -44,4 +44,5 @@
 
 .h2:hover {
   text-decoration: underline;
+  text-decoration-thickness: 2px;
 }

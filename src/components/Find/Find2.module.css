@@ -8,13 +8,13 @@ html, body{
   background-color:rgb(255, 247, 224);
   position: relative;
   z-index: 1;
-  padding-top: 60px;
+  padding-top: 45px;
   padding-bottom: 80px;
 }
 
 .h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 400;
     margin-bottom: 0;
 }
@@ -22,7 +22,7 @@ html, body{
 .h3 {
     text-align: center;
     color: rgb(91, 91, 91);
-    font-size: 25px;
+    font-size: 1.3rem;
     margin-top: 30px;
     letter-spacing: 8px;
 }
@@ -40,16 +40,16 @@ html, body{
     animation: dissolve 1.5s ease-in-out;
     display: flex;
     justify-content: center;
-    gap: 110px;
+    gap: 100px;
     align-items: flex-start;
-    margin-top: 50px;
+    margin-top: 40px;
     position: relative;
     z-index: 2;
 }
 
 .circle_container .circle{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     position: relative;
     top: 50%;

@@ -24,7 +24,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 5rem;
+    font-size: 4rem;
     height: 90vh;
 }
 
@@ -34,9 +34,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 900px; /* Adjust the width of the square box */
-  height: 150px; /* Adjust the height of the square box */
-  border: 20px solid #ca923e;
+  width: 750px; /* Adjust the width of the square box */
+  height: 110px; /* Adjust the height of the square box */
+  border: 18px solid #ca923e;
   background-color: white;
   z-index:-1;
 }

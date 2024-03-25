@@ -38,6 +38,7 @@
       "not dead",
       "not op_mini all"
     ],
+    "proxy": "https://localhost:8000",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

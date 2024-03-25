@@ -47,7 +47,7 @@ const Home_type = () => {
           {/* isVisible이 true 면 클래스에 visible 붙임. 아니면 빈칸 */}
           <img src={images[currentImageIndex]} alt="Coffee" onLoad={handleImageLoad}
             style={{
-              width: '25%',
+              width: '22%',
               height: 'auto',
               position: 'absolute',
             }} />

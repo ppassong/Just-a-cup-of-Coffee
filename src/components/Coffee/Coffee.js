@@ -65,10 +65,9 @@ const Coffee = () => {
           커피 에 대해서.
         </h1>
       </div>
-
       <div className={style.video}>
         <video ref={videoRef} autoPlay muted width="60%">
-          <source src={'videos/coffee_mix.mp4'} type='video/mp4' />
+          <source src={'https://github.com/ppassong/Just-a-cup-of-Coffee/raw/main/coffee_mix.mp4'} type='video/mp4' />
         </video>
         {videoStarted && (
           <h2 ref={h2Ref} className={style.h2}>

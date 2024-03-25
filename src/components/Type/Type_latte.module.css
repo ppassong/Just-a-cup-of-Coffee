@@ -9,17 +9,17 @@ html, body{
 }
 
 .h1 {
-    margin-top: 580px;
-    font-size: 8rem;
+    margin-top: 520px;
+    font-size: 7rem;
     text-align: center;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-weight: 900;
 }
 
 .h1_2 {
     text-align: center;
-    margin-top: 200px;
-    font-size: 3rem;
+    margin-top: 260px;
+    font-size: 2rem;
     font-weight: 500;
     text-align: center;
     color: black;
@@ -71,19 +71,19 @@ html, body{
 .h2 {
     animation: dissolve 1.5s ease-in-out;
     text-align: center;
-    color:rgb(239, 157, 56);
+    color:rgb(244, 148, 31);
     font-style: italic;
-    font-size: 2.5rem;
-    margin-top: 70px;
+    font-size: 2rem;
+    margin-top: 80px;
 }
 
 .p{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     white-space: nowrap;
     margin-bottom: 80px;
     margin-top: 40px;
-    line-height: 40px;
+    line-height: 35px;
 }
 
 .card1{
@@ -92,9 +92,9 @@ html, body{
     align-items: flex-start;
     border-radius: 20px;
     background-color: #f0b966;;
-    padding: 50px 50px 60px 50px;
+    padding: 35px 35px 45px 35px;
     margin-top: 40px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     text-align: center;
     width: auto;
     height: auto;
@@ -109,7 +109,7 @@ html, body{
 .tooltip {
     display: none; /*기존에는 툴팁 숨김 */
     position: absolute;
-    width: 250px;
+    width: 220px;
     height: auto;
     padding: 10px;
     bottom: 100%; 
@@ -118,10 +118,11 @@ html, body{
     border-radius: 10px;
     background: #313030;
     color: #fff;
-    font-size: 20px;
-    padding: 25px;
+    font-size: 16px;
+    padding: 22px;
     opacity: 0.5;
     pointer-events: none;
+    text-align: center; 
 }
 
 .tooltipContent{
@@ -152,29 +153,35 @@ html, body{
 }
 
 .container {
+    border-top: 1.5px solid rgb(200, 195, 195);
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 80px;
     margin: auto;
     font-family: 'Pretendard-Regular';
     background-color: rgb(239, 235, 233);
     padding: 0px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     position: relative;
 }
 
 .box {
-    border-top: 2px solid rgb(200, 195, 195);
+  
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
     margin: auto;
     font-family: 'Pretendard-Regular';
-    padding: 30px;
+    padding: 20px;
     position: relative;
     flex-wrap: wrap;
     padding-bottom: 0px;
+}
+
+.item {
+  flex: 0 0 auto; /* Ensure items don't grow to fill the available space */
+  margin: 20px; /* Adjust margin between items as needed */
 }
 

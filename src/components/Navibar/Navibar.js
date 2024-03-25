@@ -70,7 +70,7 @@ const Navibar = ({ setSelectedFlavor, setSelectedFeeling }) => {
         Just a cup of Coffee
       </Link>
       <Link to="/">
-      <img alt="logo" src={coffee_cup} style={{ paddingLeft: '7px', marginBottom: '1px', marginTop: '3px', width: "50px", height: "50px" }} />
+      <img alt="logo" src={coffee_cup} style={{ paddingLeft: '0px', marginBottom: '0px', marginTop: '3px', width: "40px", height: "40px" }} />
       </Link>
 
 

@@ -44,33 +44,33 @@ const Answer1_1 = () => {
 
             <div className={style.point}>
               <div className={`${style.card} ${style.tooltip_body}`} >
-                바디감<HelpOutlineIcon onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;★★★★☆
+                바디감<HelpOutlineIcon sx={{ fontSize: 20 }} onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;★★★★☆
                 {isHovered &&
                   <div className={style.tooltip}>
                     <div className={style.tooltipContent} >
-                      커피를 입에 머금었을 때 느껴지는 밀도와 무게감을 말함
+                    커피를 입에 머금었을 때 느껴지는 밀도와 무게감을 뜻합니다.
                     </div>
                   </div>
                 }
               </div>
 
               <div className={style.card} >
-                산도<HelpOutlineIcon onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
+                산도<HelpOutlineIcon sx={{ fontSize: 20 }} onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
                 {isHovered &&
                   <div className={style.tooltip}>
                     <div className={style.tooltipContent} >
-                      커피의 산뜻함과 풍미를 결정지으며 신맛의 정도. 과일맛이라고도 불림
+                    커피의 산뜻함과 풍미를 결정지으며 신맛의 정도. 과일맛이라고도 불립니다.
                     </div>
                   </div>
                 }
               </div>
 
               <div className={style.card} >
-                균형<HelpOutlineIcon onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
+                균형<HelpOutlineIcon sx={{ fontSize: 20 }} onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★★
                 {isHovered &&
                   <div className={style.tooltip}>
                     <div className={style.tooltipContent} >
-                      산미, 쓴맛, 바디감, 향 등의 다양한 맛과 향이 조화롭게 어우러져 전반적인 균형있는 맛을 의미
+                    산미, 쓴맛, 바디감, 향 등의 다양한 맛과 향이 조화롭게 어우러져 전반적인 균형 있는 맛을 의미합니다.
                     </div>
                   </div>
                 }

@@ -43,7 +43,7 @@ const Answer3_3 = () => {
 
                         <div className={style.point}>
                             <div className={`${style.card} ${style.tooltip_body}`} >
-                                바디감<HelpOutlineIcon onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;★★★★★
+                                바디감<HelpOutlineIcon sx={{ fontSize: 20 }} onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;★★★★★
                                 {isHovered &&
                                     <div className={style.tooltip}>
                                         <div className={style.tooltipContent} >
@@ -54,7 +54,7 @@ const Answer3_3 = () => {
                             </div>
 
                             <div className={style.card} >
-                                산도<HelpOutlineIcon onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★☆☆
+                                산도<HelpOutlineIcon sx={{ fontSize: 20 }} onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★☆☆
                                 {isHovered &&
                                     <div className={style.tooltip}>
                                         <div className={style.tooltipContent} >
@@ -65,7 +65,7 @@ const Answer3_3 = () => {
                             </div>
 
                             <div className={style.card} >
-                                균형<HelpOutlineIcon onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★☆
+                                균형<HelpOutlineIcon sx={{ fontSize: 20 }} onMouseEnter={handleHover} onMouseLeave={handleLeave} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★★★★☆
                                 {isHovered &&
                                     <div className={style.tooltip}>
                                         <div className={style.tooltipContent} >
