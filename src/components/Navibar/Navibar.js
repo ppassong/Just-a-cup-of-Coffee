@@ -70,7 +70,7 @@ const Navibar = ({ setSelectedFlavor, setSelectedFeeling }) => {
         Just a cup of Coffee
       </Link>
       <Link to="/">
-      <img alt="logo" src={coffee_cup} style={{ paddingLeft: '0px', marginBottom: '0px', marginTop: '3px', width: "40px", height: "40px" }} />
+      <img alt="logo" src={coffee_cup} onClick={scrollToTop} style={{ paddingLeft: '0px', marginBottom: '0px', marginTop: '3px', width: "40px", height: "40px" }} />
       </Link>
 
 
@@ -103,7 +103,7 @@ const Navibar = ({ setSelectedFlavor, setSelectedFeeling }) => {
         </div>
 
         <Tilt {...tiltOptions}>
-        <Link to="/Find" onClick={resetFind}style={{ textDecoration: 'none', color: "white" }}>
+        <Link to="/Find" onClick={resetFind} style={{ textDecoration: 'none', color: "white" }}>
             원두?
           </Link>
         </Tilt>

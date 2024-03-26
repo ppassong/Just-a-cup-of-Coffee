@@ -57,7 +57,7 @@ const handleLeave5 = () => {
                     <h1 className={style.h1}>
                         라&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;떼<br />
                     </h1>
-                    <div className={style.h1_2}>좀 더 부드럽게</div>
+                    <div className={style.h1_2}>조금 더 부드럽게</div>
                 </div>
             </div>
 

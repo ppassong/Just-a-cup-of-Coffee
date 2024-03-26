@@ -12,7 +12,6 @@ import Answer3_2 from './Find_answer/Answer3_2';
 import Answer3_3 from './Find_answer/Answer3_3';
 import Navibar from '../Navibar/Navibar';
 
-
 const Find = () => {
   const [selectedFlavor, setSelectedFlavor] = useState(null);
   const [selectedFeeling, setSelectedFeeling] = useState(null);
@@ -27,8 +26,8 @@ const Find = () => {
 
   return (
     <div>
-       <Navibar setSelectedFlavor={setSelectedFlavor} setSelectedFeeling={setSelectedFeeling} scrollToType={scrollToType} /> 
-    
+        <Navibar setSelectedFlavor={setSelectedFlavor} setSelectedFeeling={setSelectedFeeling} scrollToType={scrollToType} />
+
       {!selectedFlavor && !selectedFeeling ?
         (
           <Find1 setSelectedFlavor={setSelectedFlavor} />
@@ -64,9 +63,8 @@ const Find = () => {
           :
           null
         )}
-
-  
-    </div>
+       
+          </div>
   );
 }
 

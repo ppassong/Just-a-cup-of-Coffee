@@ -38,11 +38,7 @@ const Find1 = ({ setSelectedFlavor }) => {
           </div>
         </div>
       </div>
-
-    
     </Stack>
-    
-
   );
 };
 

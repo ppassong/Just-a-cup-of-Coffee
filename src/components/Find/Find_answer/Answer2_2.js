@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Stack } from '@mui/material';
-import Navibar from '../../Navibar/Navibar';
 import style from '../Find_answer/Answer2_2.module.css';
 import brazil from '../../../source/image/brazil.png';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
